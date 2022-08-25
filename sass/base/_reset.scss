@@ -1,0 +1,56 @@
+
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+address {
+  font-style: normal;
+}
+a {
+  color: currentColor;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: var(--color6);
+  font-size: 14px;
+}
+
+footer {
+  background-color: var(--color5);
+  padding: 60px 0;
+  display: flex;
+}
+
+footer .bottom {
+  display: flex;
+}
+

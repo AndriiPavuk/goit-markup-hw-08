@@ -1,0 +1,127 @@
+/*---------------HEADER (INDEX & PORTFOLIO)----------------*/
+/* --------------BOX---------------- */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__list {
+  display: flex;
+  margin-left: 93px;
+  & .navigation__item:not(:last-child) {
+    margin-right: 50px;
+  }
+  & .navigation__link .header-contact {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: center;
+  }
+}
+
+.contacts {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  display: flex;
+  margin-left: auto;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contacts .contacts__item + .contacts__item {
+  margin-left: 50px;
+}
+
+/* --------------BOX---------------- */
+
+.navigation__logotip {
+  text-decoration: none;
+  font-family: var(--font-family2);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color1);
+}
+
+.navigation__logotip-two {
+  color: #000000;
+}
+
+.navigation__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color2);
+  padding: 32px 0;
+  display: block;
+  transition: color var(--transform-time);
+  &:hover {
+    color: var(--color1);
+  }
+  &:focus {
+    color: var(--color1);
+  }
+}
+
+.current {
+  color: var(--color1);
+  position: relative;
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color1);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 2px;
+  }
+}
+
+.contacts__general {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color6);
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+  transition: color var(--transform-time);
+  &:hover {
+    color: var(--color1);
+  }
+
+  &:focus {
+    color: var(--color1);
+  }
+}
+
+.contacts__envelope,
+.contacts__smartphone {
+  flex-direction: column;
+  margin-right: 10px;
+  fill: currentColor;
+}
+/*------------HEADER (INDEX & PORTFOLIO)-----------*/

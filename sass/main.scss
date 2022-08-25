@@ -1,0 +1,21 @@
+@import './utils/vars';
+
+@import './base/reset';
+@import './base/comoon';
+
+@import './layout/header';
+
+@import './layout/index/cap';
+@import './layout/index/features';
+@import './layout/index/what-we-do';
+@import './layout/index/our-team';
+@import './layout/index/main-clients';
+
+@import './layout/portfolio/button';
+@import './layout/portfolio/cards';
+
+@import './layout/footer/colum-one';
+@import './layout/footer/colum-two';
+@import './layout/footer/footer-form';
+
+@import './layout/modal-form';
