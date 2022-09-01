@@ -572,7 +572,7 @@ footer .bottom {
 }
 
 .main-clients__item {
-  width: calc(100% - 5 * var(--card-gap) / 6);
+  width: calc((100% - 30px) / 2);
   height: 92px;
 }
 
@@ -584,12 +584,14 @@ footer .bottom {
       -ms-flex-pack: center;
           justify-content: center;
   gap: var(--card-gap);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .main-clients__capital {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 26px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color2);
