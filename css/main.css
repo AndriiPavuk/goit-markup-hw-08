@@ -33,6 +33,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  width: 100%;
 }
 
 ul,
@@ -100,7 +101,7 @@ footer .bottom {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1200px;
+  width: 100%;
 }
 
 .header-nav {
@@ -277,13 +278,13 @@ footer .bottom {
 
 .business__capital {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 20px;
+  line-height: 1.61;
   letter-spacing: 0.06em;
   color: var(--color4);
   margin-bottom: 30px;
   text-transform: uppercase;
-  width: 696px;
+  width: 100%;
   margin-top: 0;
   margin-bottom: 30px;
   margin-left: auto;
@@ -334,14 +335,14 @@ footer .bottom {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: var(--card-gap);
-}
-
-.features__link {
-  width: calc((100% - 3 * var(--card-gap)) / 4);
-}
-.features__link:not(:nth-last-child(-n+4)) {
-  margin-bottom: var(--card-gap);
 }
 
 .features__icon {
@@ -364,6 +365,12 @@ footer .bottom {
 }
 
 .features__three-capital {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
