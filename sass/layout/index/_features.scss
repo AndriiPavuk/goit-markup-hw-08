@@ -20,12 +20,12 @@
   gap: var(--card-gap);
 }
 
-.features__link {
-  // width: calc((100% - (3 * var(--card-gap))) / 4);
-  // &:not(:nth-last-child(-n + 4)) {
-  //   margin-bottom: var(--card-gap);
-  // }
-}
+// .features__link {
+//   // width: calc((100% - (3 * var(--card-gap))) / 4);
+//   // &:not(:nth-last-child(-n + 4)) {
+//   //   margin-bottom: var(--card-gap);
+//   // }
+// }
 
 .features__icon {
   display: flex;
