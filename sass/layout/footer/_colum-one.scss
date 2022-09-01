@@ -1,6 +1,7 @@
 
 .panel .panel__item + .panel__item {
   margin-top: 9px;
+  text-align: center;
 }
 
 .logotip {
@@ -50,4 +51,8 @@
   &:focus {
     color: var(--color1);
   }
+}
+
+.footer-data {
+  display: contents;
 }
