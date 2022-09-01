@@ -835,8 +835,8 @@ footer .bottom {
 }
 
 .subscribe {
-  width: 570px;
-  margin-left: auto;
+  width: 100%;
+  margin: auto;
   margin-top: 12px;
 }
 
@@ -849,6 +849,7 @@ footer .bottom {
   text-transform: uppercase;
   color: var(--color4);
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .subscribe__form {
@@ -856,6 +857,14 @@ footer .bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
 }
 
 .subscribe__field {
@@ -863,6 +872,8 @@ footer .bottom {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  width: 100%;
+  padding: 0 15px;
 }
 
 .subscribe__mail {
@@ -898,7 +909,6 @@ footer .bottom {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--color4);
-  margin-left: 12px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
