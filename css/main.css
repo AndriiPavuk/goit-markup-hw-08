@@ -121,6 +121,7 @@ footer .bottom {
 }
 
 .navigation {
+  min-height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,9 +131,7 @@ footer .bottom {
 }
 
 .navigation__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   margin-left: 93px;
 }
 .navigation__list .navigation__item:not(:last-child) {
@@ -151,9 +150,7 @@ footer .bottom {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   margin-left: auto;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -256,6 +253,17 @@ footer .bottom {
 }
 
 /*------------HEADER (INDEX & PORTFOLIO)-----------*/
+/*------------MENU-MOB&TABLE-------*/
+.menu-open {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0;
+  margin-left: auto;
+}
+
 .sctn-one {
   text-align: center;
   background-color: #c4c4c4;

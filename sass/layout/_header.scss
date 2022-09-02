@@ -14,12 +14,13 @@
   align-items: center;
 }
 .navigation {
+  min-height: 60px;
   display: flex;
   align-items: center;
 }
 
 .navigation__list {
-  display: flex;
+  display: none;
   margin-left: 93px;
   & .navigation__item:not(:last-child) {
     margin-right: 50px;
@@ -36,7 +37,7 @@
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  display: flex;
+  display: none;
   margin-left: auto;
   flex-direction: row;
   align-items: center;
@@ -125,3 +126,13 @@
   fill: currentColor;
 }
 /*------------HEADER (INDEX & PORTFOLIO)-----------*/
+/*------------MENU-MOB&TABLE-------*/
+.menu-open {
+  background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    padding: 0;
+    margin-left: auto;
+}
