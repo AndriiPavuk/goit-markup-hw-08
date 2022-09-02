@@ -143,8 +143,9 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 48px 25px;
+  padding: 0 25px;
 }
+
 .menu-close {
   display: block;
   margin-left: auto;
@@ -155,14 +156,14 @@
   outline: none;
 }
 
-.menu-nav__list {
+.mob-menu__list {
   flex-grow: 1;
 }
-.menu-nav__list :not(:last-child) {
+.mob-menu__list :not(:last-child) {
   margin-bottom: 32px;
 }
 
-.menu-nav__link {
+.mob-menu__link {
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
@@ -196,6 +197,7 @@
   flex-wrap: wrap;
   gap: 20px;
   list-style: none;
+  margin-bottom: 96px;
 }
 .mobile-socials__item {
   font-weight: 500;
