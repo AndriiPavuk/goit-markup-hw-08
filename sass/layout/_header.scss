@@ -138,18 +138,15 @@
 }
 
 .mob-menu {
-  position: absolute;
-  z-index: 2;
-  background-color: var(--color4);
   overflow-y: scroll;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 48px 25px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 25px;
 }
 .menu-close {
-  display: flex;
+  display: block;
   margin-left: auto;
   padding: 0;
   background-color: rgba(0, 0, 0, 0);
@@ -157,26 +154,27 @@
   border: none;
   outline: none;
 }
-.menu-nav {
+
+.menu-nav__list {
   flex-grow: 1;
 }
 .menu-nav__list :not(:last-child) {
   margin-bottom: 32px;
 }
 .menu-nav__item {
+}
+.menu-nav__link {
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
   letter-spacing: 0.02em;
-
   color: var(--color2);
 }
-.menu-nav__link {
-}
 .mob-contacts {
-  margin-bottom: 63px;
+  margin-bottom: 64px;
 }
-.mob-contacts__item {
+.mob-contacts__item: not(:last-child) {
+  margin-bottom: 32px;
 }
 .mob-contacts__general {
 }
@@ -189,26 +187,47 @@
 }
 .mob-contacts__mail {
   font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-letter-spacing: 0.02em;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
 
-color:var(--color6);
-
+  color: var(--color6);
 }
 .mobile-socials {
-      display: block;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   list-style: none;
 }
 .mobile-socials__item {
-}
-.mobile-socials__link {
   font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-letter-spacing: 0.02em;
-color: var(--color1);
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: var(--color1);
 }
+
+.mobile-socials__item:not(:last-child):after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(33, 33, 33, 0.2);
+}
+
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #fff;
+    z-index: 10;
+    }
