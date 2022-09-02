@@ -783,8 +783,7 @@ footer .bottom {
 .networks {
   min-width: 206px;
   min-height: 80px;
-  margin-top: 12px;
-  margin-left: 70px;
+  margin-top: 60px;
 }
 
 .networks__title {
@@ -794,6 +793,7 @@ footer .bottom {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--color4);
+  text-align: center;
 }
 
 .footer-ni .footer-ni__item {
@@ -837,7 +837,7 @@ footer .bottom {
 .subscribe {
   width: 100%;
   margin: auto;
-  margin-top: 12px;
+  margin-top: 60px;
 }
 
 .subscribe__mailing {
@@ -873,7 +873,6 @@ footer .bottom {
       -ms-flex-positive: 1;
           flex-grow: 1;
   width: 100%;
-  padding: 0 15px;
 }
 
 .subscribe__mail {
