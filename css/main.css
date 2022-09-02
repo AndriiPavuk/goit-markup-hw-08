@@ -312,6 +312,10 @@ footer .bottom {
   margin-bottom: 64px;
 }
 
+.mob-contacts__general :not(:last-child) {
+  margin-bottom: 32px;
+}
+
 .mob-contacts__tel {
   font-weight: 500;
   font-size: 34px;
