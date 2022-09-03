@@ -111,6 +111,16 @@ footer .bottom {
   width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    width: 768;
+  }
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
 .header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,6 +130,11 @@ footer .bottom {
           align-items: center;
 }
 
+@media (min-width: 768px) {
+  .header-nav {
+    min-height: 80px;
+  }
+}
 .navigation {
   min-height: 60px;
   display: -webkit-box;
@@ -146,6 +161,13 @@ footer .bottom {
           align-items: center;
 }
 
+@media (min-width: 768px) {
+  .navigation__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 .contacts {
   font-weight: 500;
   line-height: 16px;
@@ -161,6 +183,13 @@ footer .bottom {
           align-items: center;
 }
 
+@media (min-width: 768px) {
+  .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 .contacts .contacts__item + .contacts__item {
   margin-left: 50px;
 }
@@ -266,6 +295,11 @@ footer .bottom {
   outline: none;
 }
 
+@media screen and (min-width: 768px) {
+  .menu-open {
+    display: none;
+  }
+}
 .menu-container {
   position: fixed;
   top: 0;
@@ -1072,8 +1106,7 @@ footer .bottom {
 
 .modal-window {
   position: absolute;
-  width: 528px;
-  min-height: 581px;
+  width: 100%;
   background-color: var(--color4);
   top: 50%;
   left: 50%;
@@ -1093,6 +1126,11 @@ footer .bottom {
           transform: translate(0, 0) scale(0);
 }
 
+@media screen and (min-width: 480px) {
+  .modal-window {
+    max-width: 450px;
+  }
+}
 .modal-window__button {
   position: absolute;
   display: -webkit-box;
@@ -1137,7 +1175,7 @@ footer .bottom {
 
 /* ---------MODAL-FORM------- */
 .modal-form {
-  width: 448px;
+  width: 100%;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
