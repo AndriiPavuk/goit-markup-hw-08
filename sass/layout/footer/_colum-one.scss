@@ -54,5 +54,25 @@
 }
 
 .footer-data {
-  display: contents;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+.footer-data {
+    padding-right: 165px;
+}
+}
+
+.footer-blok {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+.footer-blok {
+    flex-direction: row;
+}
 }

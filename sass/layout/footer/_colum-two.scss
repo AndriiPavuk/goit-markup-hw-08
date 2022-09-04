@@ -4,6 +4,13 @@
   margin-top: 60px;
 }
 
+@media screen and (min-width: 768px) {
+.networks {
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+}
+
 .networks__title {
   margin-bottom: 20px;
   font-weight: 700;

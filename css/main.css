@@ -1004,15 +1004,56 @@ footer .bottom {
 }
 
 .footer-data {
-  display: contents;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-data {
+    padding-right: 165px;
+  }
+}
+.footer-blok {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-blok {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 .networks {
   min-width: 206px;
   min-height: 80px;
   margin-top: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .networks {
+    margin-bottom: 60px;
+    margin-top: 0;
+  }
+}
 .networks__title {
   margin-bottom: 20px;
   font-weight: 700;
@@ -1102,6 +1143,11 @@ footer .bottom {
   width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+  .subscribe__field {
+    width: 450px;
+  }
+}
 .subscribe__mail {
   width: 100%;
   height: 50px;
