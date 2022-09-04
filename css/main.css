@@ -795,6 +795,11 @@ footer .bottom {
   height: 92px;
 }
 
+@media screen and (min-width: 768px) {
+  .main-clients__item {
+    width: calc((100% - 60px) / 3);
+  }
+}
 .main-clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
