@@ -658,6 +658,20 @@ footer .bottom {
           flex-direction: column;
 }
 
+@media screen and (min-width: 768px) {
+  .team__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 30px;
+  }
+}
 .team__card {
   -webkit-box-shadow: var(--team-card-shadow);
           box-shadow: var(--team-card-shadow);
@@ -668,6 +682,12 @@ footer .bottom {
   margin-bottom: var(--card-gap);
 }
 
+@media screen and (min-width: 768px) {
+  .team__card {
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
+  }
+}
 .team__content {
   padding-top: 30px;
   padding-bottom: 30px;
