@@ -28,6 +28,12 @@
   flex-wrap: wrap;
 }
 
+@media screen and (min-width: 768px) {
+ .filter {
+  justify-content: center;
+  margin-top: 60px;
+}
+}
 // .filter .filter__item + .filter__item {
 //   margin-left: 8px;
 // }

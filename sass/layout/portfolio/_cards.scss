@@ -5,16 +5,40 @@
   margin-top: calc(-1 * var(--card-gap));
 }
 
+@media screen and (min-width: 768px) {
+ .cards {
+     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+}
+
+.cards__item {
+  display: flex;
+}
+
+
+
 .cards__content {
   border: 1px solid #eeeeee;
   padding: 20px 24px;
   border-top: none;
 }
 
+
+
 .cards > .item {
   flex-basis: calc(100% / 3 - var(--card-gap));
   margin-left: var(--card-gap);
   margin-top: var(--card-gap);
+}
+
+
+@media screen and (min-width: 768px) {
+ .cards > .item {
+max-width: calc((100% - 30px)/2);
+}
 }
 
 .work-examples, .cards__capital {
