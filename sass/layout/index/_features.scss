@@ -20,12 +20,28 @@
   gap: var(--card-gap);
 }
 
+@media screen and (min-width: 768px) {
+.features__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+
+}
+
 // .features__link {
 //   // width: calc((100% - (3 * var(--card-gap))) / 4);
 //   // &:not(:nth-last-child(-n + 4)) {
 //   //   margin-bottom: var(--card-gap);
 //   // }
 // }
+
+@media screen and (min-width: 768px) {
+.features__link {
+    flex-basis: calc((100% - 30px)/2);
+}
+}
 
 .features__icon {
   display: flex;
