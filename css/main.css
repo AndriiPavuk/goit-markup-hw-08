@@ -1129,6 +1129,11 @@ footer .bottom {
     max-width: 450px;
   }
 }
+@media screen and (min-width: 768px) {
+  .modal-window {
+    max-width: 530px;
+  }
+}
 .modal-window__button {
   position: absolute;
   display: -webkit-box;
@@ -1293,7 +1298,7 @@ footer .bottom {
   position: absolute;
   display: inline-block;
   top: 50%;
-  left: 12px;
+  left: 1px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 16px;
@@ -1331,7 +1336,7 @@ footer .bottom {
   position: absolute;
   display: inline-block;
   top: 50%;
-  left: 12px;
+  left: 1px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 16px;
