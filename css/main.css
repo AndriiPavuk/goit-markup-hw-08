@@ -643,56 +643,75 @@ footer .bottom {
   line-height: 1.71;
 }
 
-.sctn-three {
-  padding-top: 0;
+@media screen and (min-width: 480px) {
+  .sctn-three {
+    display: none;
+  }
 }
-
-.development__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media screen and (min-width: 770px) {
+  .sctn-three {
+    display: none;
+  }
 }
-
-.development__list > .development__item + .development__item {
-  margin-left: var(--card-gap);
+@media screen and (min-width: 1200px) {
+  .sctn-three {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 0;
+  }
 }
-
-.development__label {
-  position: absolute;
-  bottom: 0;
-  pointer-events: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);
+@media screen and (min-width: 1200px) {
+  .development__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
-
-.development__label-text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--color4);
+@media screen and (min-width: 1200px) {
+  .development__list > .development__item + .development__item {
+    margin-left: var(--card-gap);
+  }
 }
-
-.development__capital {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--color2);
-  margin-bottom: 50px;
+@media screen and (min-width: 1200px) {
+  .development__label {
+    position: absolute;
+    bottom: 0;
+    pointer-events: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
 }
-
+@media screen and (min-width: 1200px) {
+  .development__label-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--color4);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .development__capital {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color2);
+    margin-bottom: 50px;
+  }
+}
 .sctn-four {
   background-color: var(--color7);
 }
