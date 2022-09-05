@@ -897,6 +897,14 @@ footer .bottom {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     gap: 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: 0;
+    margin-top: 0;
   }
 }
 .cards__item {
@@ -920,7 +928,10 @@ footer .bottom {
 
 @media screen and (min-width: 768px) {
   .cards > .item {
-    max-width: calc((100% - 30px) / 2);
+    -ms-flex-preferred-size: calc(47.33333% - var(--card-gap));
+        flex-basis: calc(47.33333% - var(--card-gap));
+    margin-left: 0;
+    margin-top: 0;
   }
 }
 .work-examples, .cards__capital {
