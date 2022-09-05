@@ -31,11 +31,24 @@
 }
 }
 
+@media screen and (min-width: 768px) {
+.main-clients__item {
+    width: calc((100% - 60px)/6);
+}
+}
+
+
 .main-clients__list {
   display: flex;
   justify-content: center;
   gap: var(--card-gap);
   flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+.main-clients__list {
+   flex-wrap: nowrap;
+}
 }
 
 .main-clients__capital {
