@@ -747,6 +747,14 @@ footer .bottom {
     gap: 30px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .team__card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 .team__card {
   -webkit-box-shadow: var(--team-card-shadow);
           box-shadow: var(--team-card-shadow);
@@ -761,6 +769,12 @@ footer .bottom {
   .team__card {
     -ms-flex-preferred-size: calc((100% - 30px) / 2);
         flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__card {
+    -ms-flex-preferred-size: calc((94% - 30px) / 4);
+        flex-basis: calc((94% - 30px) / 4);
   }
 }
 .team__content {

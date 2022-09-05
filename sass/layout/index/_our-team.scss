@@ -24,6 +24,12 @@
 }
 }
 
+@media screen and (min-width: 1200px) {
+.team__card {
+    flex-direction: row;
+}
+}
+
 .team__card {
   // width: calc((100% - (3 * var(--card-gap))) / 4);
   box-shadow: var(--team-card-shadow);
@@ -37,6 +43,12 @@
 @media screen and (min-width: 768px) {
 .team__card {
     flex-basis: calc((100% - 30px)/2);
+}
+}
+
+@media screen and (min-width: 1200px) {
+.team__card {
+    flex-basis: calc((94% - 30px)/4);
 }
 }
 
