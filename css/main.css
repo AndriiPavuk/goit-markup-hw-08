@@ -407,7 +407,7 @@ footer .bottom {
 .mob-menu__link {
   font-weight: 500;
   font-size: 40px;
-  line-height: 47px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--color2);
 }
@@ -422,8 +422,8 @@ footer .bottom {
 
 .mob-contacts__tel {
   font-weight: 500;
-  font-size: 34px;
-  line-height: 40px;
+  font-size: 30px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--color1);
 }
@@ -465,6 +465,14 @@ footer .bottom {
   width: 1px;
   height: 100%;
   background-color: rgba(33, 33, 33, 0.2);
+}
+
+.mob-contacts :not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.curren {
+  color: var(--color1);
 }
 
 .sctn-one {
@@ -651,6 +659,11 @@ footer .bottom {
   line-height: 1.71;
 }
 
+@media screen and (min-width: 1px) {
+  .sctn-three {
+    display: none;
+  }
+}
 @media screen and (min-width: 480px) {
   .sctn-three {
     display: none;
