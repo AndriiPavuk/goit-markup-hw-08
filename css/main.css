@@ -1033,7 +1033,7 @@ footer .bottom {
     margin-top: 0;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .cards > .item {
     -ms-flex-preferred-size: calc(33.33333% - var(--card-gap));
         flex-basis: calc(33.33333% - var(--card-gap));
