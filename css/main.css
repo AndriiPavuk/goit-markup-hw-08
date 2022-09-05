@@ -897,7 +897,7 @@ footer .bottom {
     width: calc((100% - 60px) / 3);
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .main-clients__item {
     width: calc((100% - 60px) / 6);
   }
@@ -914,7 +914,7 @@ footer .bottom {
       flex-wrap: wrap;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .main-clients__list {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;

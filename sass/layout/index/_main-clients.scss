@@ -31,7 +31,7 @@
 }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
 .main-clients__item {
     width: calc((100% - 60px)/6);
 }
@@ -45,7 +45,7 @@
   flex-wrap: wrap;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
 .main-clients__list {
    flex-wrap: nowrap;
 }
