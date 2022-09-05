@@ -4,6 +4,14 @@
   margin-top: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+.subscribe {
+  width: 570px;
+  margin-left: 93px;
+  margin-top: 0;
+}
+}
+
 .subscribe__mailing {
   display: block;
   font-weight: 700;
@@ -16,12 +24,24 @@
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+ .subscribe__mailing {
+  text-align: start;
+}
+}
+
 .subscribe__form {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+ .subscribe__form {
+  flex-direction: row;
+}
 }
 
 .subscribe__field {

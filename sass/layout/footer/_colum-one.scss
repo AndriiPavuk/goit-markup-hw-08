@@ -1,7 +1,14 @@
 
+
 .panel .panel__item + .panel__item {
   margin-top: 9px;
   text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+.panel .panel__item + .panel__item {
+    display: flex;
+}
 }
 
 .logotip {
@@ -64,6 +71,18 @@
     padding-right: 165px;
 }
 }
+
+
+
+@media screen and (min-width: 1200px) {
+.footer-data {
+    padding-right: 80px;
+    width: 300px;
+    display: flex;
+    align-items: flex-start;
+}
+}
+
 
 .footer-blok {
   display: flex;

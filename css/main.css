@@ -83,6 +83,14 @@ footer .bottom {
           align-items: center;
 }
 
+@media screen and (min-width: 1200px) {
+  footer .bottom {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 .list {
   padding: 0;
   margin: 0;
@@ -1088,6 +1096,13 @@ footer .bottom {
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .panel .panel__item + .panel__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 .logotip {
   text-decoration: none;
   font-family: var(--font-family2);
@@ -1155,6 +1170,18 @@ footer .bottom {
     padding-right: 165px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-data {
+    padding-right: 80px;
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
 .footer-blok {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1186,6 +1213,20 @@ footer .bottom {
   .networks {
     margin-bottom: 60px;
     margin-top: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .networks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 .networks__title {
@@ -1242,6 +1283,13 @@ footer .bottom {
   margin-top: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    width: 570px;
+    margin-left: 93px;
+    margin-top: 0;
+  }
+}
 .subscribe__mailing {
   display: block;
   font-weight: 700;
@@ -1254,6 +1302,11 @@ footer .bottom {
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .subscribe__mailing {
+    text-align: start;
+  }
+}
 .subscribe__form {
   position: relative;
   display: -webkit-box;
@@ -1269,6 +1322,14 @@ footer .bottom {
   gap: 20px;
 }
 
+@media screen and (min-width: 1200px) {
+  .subscribe__form {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 .subscribe__field {
   display: inline-block;
   -webkit-box-flex: 1;
