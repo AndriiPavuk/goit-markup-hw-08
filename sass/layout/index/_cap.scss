@@ -47,6 +47,13 @@ line-height: 1.61;
 }
 }
 
+@media screen and (min-width: 1200px) {
+.business__capital {
+    width: 696px;
+    font-size: 44px;
+}
+}
+
 .business__button {
   font-style: inherit;
   background-color: var(--color1);

@@ -507,6 +507,12 @@ footer .bottom {
     font-size: 26px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .business__capital {
+    width: 696px;
+    font-size: 44px;
+  }
+}
 .business__button {
   font-style: inherit;
   background-color: var(--color1);
