@@ -3,6 +3,7 @@
   flex-direction: column;
   margin-left: calc(-1 * var(--card-gap));
   margin-top: calc(-1 * var(--card-gap));
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
