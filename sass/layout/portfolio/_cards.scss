@@ -27,8 +27,10 @@
 
 .cards__content {
   border: 1px solid #eeeeee;
-  padding: 20px 24px;
   border-top: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 
@@ -42,7 +44,7 @@
 
 @media screen and (min-width: 768px) {
  .cards > .item {
-flex-basis: calc(47.33333% - var(--card-gap));
+flex-basis: calc(52% - var(--card-gap));
 margin-left: 0;
 margin-top: 0;
 }
