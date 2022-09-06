@@ -554,10 +554,16 @@ footer .bottom {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 .features__title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -654,6 +660,20 @@ footer .bottom {
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .features__three-capital {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .features__three-capital {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
 .features__paragraph {
   font-weight: 400;
   line-height: 1.71;
@@ -857,6 +877,11 @@ footer .bottom {
   margin-bottom: 50px;
 }
 
+@media screen and (min-width: 1200px) {
+  .team__capital {
+    font-size: 36px;
+  }
+}
 .team__three-capital {
   font-weight: 500;
   font-size: 16px;
@@ -943,6 +968,11 @@ footer .bottom {
   margin-bottom: 50px;
 }
 
+@media screen and (min-width: 1200px) {
+  .main-clients__capital {
+    font-size: 36px;
+  }
+}
 .filter__button {
   font-family: "Roboto", sans-serif;
   font-style: inherit;

@@ -60,3 +60,9 @@
   color: var(--color2);
   margin-bottom: 50px;
 }
+
+@media screen and (min-width: 1200px) {
+.main-clients__capital {
+    font-size: 36px;
+}
+}
